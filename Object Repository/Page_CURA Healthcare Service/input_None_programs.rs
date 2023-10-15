@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_username</name>
+   <name>input_None_programs</name>
    <tag></tag>
-   <elementGuidId>2641f435-134f-4b24-bf1f-c23608e9ffbd</elementGuidId>
+   <elementGuidId>f8d0a586-425a-40d9-a4e2-cc67b044e161</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#txt-username</value>
+         <key>XPATH</key>
+         <value>//input[@id='radio_program_none']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='txt-username']</value>
+         <key>CSS</key>
+         <value>#radio_program_none</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,94 +22,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1c318580-9b38-4a72-9d9c-0108868ff42a</webElementGuid>
+      <webElementGuid>b4632b0a-bc7b-4e0e-acf4-e6fbd542ca08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>b22c0c6d-3788-4683-979a-90695a0a8fee</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>bcc476eb-af50-49d3-9582-0a3cfd539516</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>txt-username</value>
-      <webElementGuid>d8224cc2-fafd-4b85-b0aa-0c30c884b71b</webElementGuid>
+      <value>radio</value>
+      <webElementGuid>9a068e46-8f30-43cf-820c-56ea16249104</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>7b87c839-ef3f-4b1c-a460-9c35ae10cc86</webElementGuid>
+      <value>programs</value>
+      <webElementGuid>d8351aea-e313-4e1c-85aa-ada54974959c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Username</value>
-      <webElementGuid>68a85574-9486-493d-9f63-dab086a4bd92</webElementGuid>
+      <value>radio_program_none</value>
+      <webElementGuid>9c67f7dc-dc46-4841-82c2-301857982d9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>value</name>
       <type>Main</type>
-      <value>off</value>
-      <webElementGuid>ab5e9263-8d6d-4378-a8d7-266eb80a0f77</webElementGuid>
+      <value>None</value>
+      <webElementGuid>a78ee4dd-9d9c-47a3-babe-a1bab8de306a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txt-username&quot;)</value>
-      <webElementGuid>f9e99a8e-6eb6-4f1b-8f2e-40557be99cdc</webElementGuid>
+      <value>id(&quot;radio_program_none&quot;)</value>
+      <webElementGuid>ee628e93-e92c-4f5b-981c-0469103eb792</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txt-username']</value>
-      <webElementGuid>2dad3d9b-a1e4-4e5c-a8ad-d3242e85f2a0</webElementGuid>
+      <value>//input[@id='radio_program_none']</value>
+      <webElementGuid>f59ba519-a0be-435f-b71a-2236fc5f15e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='login']/div/div/div[2]/form/div[2]/div/input</value>
-      <webElementGuid>b0889310-6403-4fd8-8e3d-a629eab9cf7a</webElementGuid>
+      <value>//section[@id='appointment']/div/div/form/div[3]/div/label[3]/input</value>
+      <webElementGuid>c2221e44-46af-4ba1-bea3-eee792e65ccc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
-      <webElementGuid>ff63b866-61bb-49d5-8c1a-9b2ae5392409</webElementGuid>
+      <value>//label[3]/input</value>
+      <webElementGuid>e672700e-4fce-4fc3-9c07-d4a673af4707</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'txt-username' and @name = 'username' and @placeholder = 'Username']</value>
-      <webElementGuid>ec24a448-cf00-46e4-94ce-78eff228ee52</webElementGuid>
+      <value>//input[@type = 'radio' and @name = 'programs' and @id = 'radio_program_none']</value>
+      <webElementGuid>b73c6740-c119-4e70-b653-47c22afbaeaf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
