@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validacion de lista de citas vacia</description>
+   <name>Test_History_002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa85de61-b6b7-4142-a616-dda30707308d</testCaseGuid>
+</TestCaseEntity>
