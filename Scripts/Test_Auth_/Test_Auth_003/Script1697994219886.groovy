@@ -21,17 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'admin')
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'ThisIsNotAPassword')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC8Mkcu6K32WdJ4DuFx19hz')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.click(findTestObject('Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_History'))
-
-WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/p_No appointment'), 'No appointment.')
 
 WebUI.closeBrowser()
 

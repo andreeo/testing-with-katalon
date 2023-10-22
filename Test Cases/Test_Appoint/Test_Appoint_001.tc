@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El usuario realiza una cita exitosamente</description>
+   <name>Test_Appoint_001</name>
+   <tag>appointment</tag>
+   <comment></comment>
+   <testCaseGuid>5d2b4628-043c-4e71-a40e-c383a23e9960</testCaseGuid>
+</TestCaseEntity>
