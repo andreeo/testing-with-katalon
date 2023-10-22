@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El usuario accede exitosamente a la página de login</description>
+   <name>Test_Auth_004</name>
+   <tag>authentication</tag>
+   <comment></comment>
+   <testCaseGuid>a1f0a22f-27e2-4fb3-bfb2-4c7c2f797508</testCaseGuid>
+</TestCaseEntity>

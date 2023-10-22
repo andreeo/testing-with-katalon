@@ -19,19 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/profile.php#login')
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'ThisIsNotAPassword')
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.click(findTestObject('Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_History'))
-
-WebUI.verifyElementText(findTestObject('Page_CURA Healthcare Service/p_No appointment'), 'No appointment.')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'), 0)
 
 WebUI.closeBrowser()
 

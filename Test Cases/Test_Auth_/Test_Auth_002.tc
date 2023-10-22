@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>El usuario no puede iniciar sesión,  debido a una contraseña incorrecta</description>
+   <name>Test_Auth_002</name>
+   <tag>authentication</tag>
+   <comment></comment>
+   <testCaseGuid>b91886a4-151d-4911-ba69-9586817d4bd9</testCaseGuid>
+</TestCaseEntity>

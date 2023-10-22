@@ -29,3 +29,5 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/butto
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'), 0)
 
+WebUI.closeBrowser()
+
